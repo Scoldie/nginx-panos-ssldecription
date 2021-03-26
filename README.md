@@ -52,9 +52,9 @@ server {
 
 	index index.html index.htm index.nginx-debian.html;
 
-    server_name		justtestdomain.com;
-    ssl_certificate           /etc/letsencrypt/live/justtestdomain.com/fullchain.pem;
-    ssl_certificate_key       /etc/letsencrypt/live/justtestdomain.com/privkey.pem;
+    server_name		example.com;
+    ssl_certificate           /etc/letsencrypt/live/example.com/fullchain.pem;
+    ssl_certificate_key       /etc/letsencrypt/live/example.com/privkey.pem;
 
     ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;
     ssl_prefer_server_ciphers on;
