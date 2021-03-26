@@ -43,7 +43,7 @@ These are just suggestions for improvements to adopt good security practices for
 If this can help.
 
 Sample in my case:
-
+```
 server {
 	listen 80 default_server;
 	listen 443 ssl default_server;
@@ -76,3 +76,4 @@ server {
     index     index.html index.htm index.php;
     try_files $uri /index.php?$args;
   }
+```
