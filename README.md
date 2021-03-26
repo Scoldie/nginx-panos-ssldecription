@@ -1,4 +1,4 @@
-t would be wise to propose several options of cipher suites with different levels of security for compatibility with clients.
+It would be wise to propose several options of cipher suites with different levels of security for compatibility with clients.
 
     Very High Security (Paranoid + TLS 1.3 Support)
     ssl_ciphers 'ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-CCM:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-CCM';
